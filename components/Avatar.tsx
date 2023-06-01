@@ -7,7 +7,7 @@ function Avatar() {
   return (
     <div className='relative h-10 w-10 rounded-full border-gray-200 bg-white '>
         <Image alt="foo" layout='fill' 
-            src=""
+            src="a"
         />
     </div>
   )
