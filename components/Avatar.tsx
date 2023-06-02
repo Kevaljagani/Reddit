@@ -5,16 +5,13 @@ import React from 'react'
 function Avatar() {
   const { data: session} = useSession()
   return (
-    <div className='relative h-10 w-10 rounded-full border-gray-200 bg-white '>
-        <Image alt="foo" layout='fill' 
-            src="a"
-        />
+    <div className={`relative overflow-hidden h-10 w-10 rounded-full border-gray-200 bg-white ${ 'h-10 w-10'}`}>
+        <Image layout='fill'
+      src="https://links.papareact.com/23l" alt={''}       />
+
     </div>
   )
 }
 
 export default Avatar
-
-// {`https://api.dicebear.com/6.x/open-peeps/svg${
-//                 session?.user?.name || 'placeholder'
-//         }.svg`} 
+ 
